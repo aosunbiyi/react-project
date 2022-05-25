@@ -1,0 +1,14 @@
+.status{
+  font-size: 30px;
+  text-align: left;
+  margin-left:10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.board-row{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
