@@ -1,0 +1,49 @@
+.form1 {
+  width: 60%;
+  margin: 0 auto;
+  background-color: rgb(153, 150, 150);
+  border: solid 1px black;
+}
+
+.form-group {
+  width: 90%;
+  min-height: 50px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(113, 110, 110);
+}
+
+.input {
+  width: 80%;
+  padding: 4px;
+  border: none;
+}
+
+.form-title{
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+select {
+  width: 150px;
+  min-height: 100px;
+}
+
+label{
+    color:white;
+    text-align: center;
+    vertical-align: top;
+}
+
+.output {
+  width: 80%;
+  background-color: black;
+  border: solid 5px white;
+  min-height: 120px;
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
