@@ -2,8 +2,8 @@ import { Formik, Form, useField, useFormikContext } from "formik";
 import React from "react";
 import * as Yup from "yup";
 import styled from "@emotion/styled";
-import "./styles.css";
-import "./styles-custom.css";
+import './style.css';
+import './style-custom.css';
 
 
 
@@ -29,7 +29,7 @@ export default class SubForm extends React.Component {
                         Yup.object({
                             firstName: Yup.string().max(15, "Must be 15 characters or less").required("Required"),
                             lastName: Yup.string().max(20, "Must be 20 characters or less").required("Required"),
-                            email: Yup.email("Invalid email address").required("Required"),
+                            email: Yup.string("Invalid email address").required("Required"),
                             acceptedTerms: Yup.boolean().required("Required").oneOf([true], "You must accept the terms and conditions"),
                             jobType: Yup.string().oneOf(["designer", "development", "product", "other", "Invalid Job Type"]).required("Required"),
                         })
